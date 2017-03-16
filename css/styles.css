@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/***************************navbar begins here****************************/
+
+.nav, .navbar-header, .navbar {
+  background-color: #444242;
+  border-color: #444242;
+}
+
+.navbar-brand a {
+  margin-left: 20px;
+  font-size: 2em;
+  font-weight: 900;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+.navbar-right {
+  margin-right: 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  width: 120px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Sansita, sans-serif;
+  color: white;
+}
+
+.dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: black;
+  background-color: #F2F2F2;
+}
+
+.dropdown-menu,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:focus,
+.navbar-nav > .open > a:hover {
+  background-color: #F2F2F2;
+  color: black;
+}
+
+.dropdown-menu > li > a {
+  font-family: Roboto, sans-serif;
+  color: #F2F2F2;
+  color: black;
+}
+
+
+*/
+/***************************navbar ends here******************************/
+
+/***************************carousel begins here**************************/
+
+.carousel {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.carousel-caption {
+  color: black;
+}
+
+/***************************carousel ends here****************************/
+
+/***************************about begins here*****************************/
+
+#about {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: #EEEEEE; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#EEEEEE, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#EEEEEE, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#EEEEEE, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#EEEEEE, white); /* Standard syntax */
+}
+
+#about h1 {
+  margin-top: 80px;
+  text-align: center;
+  font-family: Ubuntu, sans-serif;
+}
+
+#about .row {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#about h3 {
+  font-family: Ubuntu, sans-serif;
+}
+
+#about p {
+  font-size: 1.3em;
+  font-family: "Crimson Text", serif;
+}
+
+/***************************about ends here*******************************/
+
+/***************************work begins here******************************/
+
+#work {
+  position: relative;
+  width: 100%;
+
+  padding:100px;
+  padding-top: 50px;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#work h1 {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: Ubuntu, sans-serif;
+  color: white;
+}
+
+#work h3 {
+  font-family: Ubuntu, sans-serif;
+  color: white;
+}
+
+#work p {
+  color: white;
+  font-size: 1.5em;
+}
+
+#work .row {
+  margin-bottom: 50px;
+}
+
+#work .col-xs-12 {
+  margin-left: 0px;
+}
+
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 300px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+
+.info {
+  position: absolute;
+  display: none;
+  top: 15%;
+  left: 22%;
+  color:#fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+}
+
+.proj-title {
+  font-weight:100;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/***************************work ends here********************************/
+
+/***************************learn more begins here************************/
+
+#learnmore {
+  position: relative;
+  width: 80%;
+  margin-top: 80px;
+}
+
+#learnmore .row {
+  margin-bottom: 40px;
+}
+
+#learnmore h1 {
+  font-family: Ubuntu, sans-serif;
+}
+
+.learn-more {
+  text-align: left;
+  float: left;
+  margin-left: 5%;
+}
+
+.modal-button {
+  float: right;
+  padding: 15px;
+  margin-right: 5%;
+}
+
+.modal-title {
+  font-size: 2em;
+}
+
+#modalembed {
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
+.panel-group .panel-default .panel-heading {
+  background-color: #EEEEEE;
+}
+
+.panel-group .panel-default .panel-body {
+  background-color: #F5F3F3;
+}
+
+/***************************learn more ends here**************************/
+
+/***************************contact begins here***************************/
+
+#contact {
+  position: relative;
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 50px;
+  background-image: url("../img/berlinbruecke.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#inputname {
+  width: 40%;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+#inputphone {
+  width: 40%;
+  display: inline-block;
+}
+
+#contact h1 {
+  margin: 0;
+  padding-bottom: 10px;
+  color: white;
+  text-shadow: 1px 1px 0 black;
+}
+
+  form {
+    margin-bottom: 50px;
+  }
+
+#map {
+  position: relative;
+  height: 300px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+/***************************contact ends here*****************************/
+
+/***************************footer begins here****************************/
+
+footer {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #444242;
+}
+
+footer p {
+  color: white;
+}
+
+/*
+footer .col-sm-12, .col-xs-12 {
+  margin-top: 30px;
+  left: 20px;
+}
+
+footer .col-md-6 {
+  left: 20px;
+}*/
+
+/***************************footer ends here******************************/

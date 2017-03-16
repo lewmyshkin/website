@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+/***************************navbar begins here***************************/
+
+.navbar-default {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 125;
+  width: 50%;
+  background-color: #444242;
+  border-color: #444242;
+  border-radius: 0;
+}
+
+.navbar-header .navbar-brand {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  color: #C1D5EC;
+}
+
+.navbar-default ul {
+  float: right;
+}
+
+.navbar-default .navbar-nav > li > a {
+  letter-spacing: 2px;
+  font-family: Sansita, sans-serif;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #C1D5EC;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: #C1D5EC;
+}
+
+/***************************navbar ends here*****************************/
+
+/***************************carousel begins here*************************/
+
+#carousel-example-generic {
+  position: absolute;
+  top: 100px;
+}
+
+.carousel {
+  position: absolute;
+  top: 100px;
+}
+
+.slide {
+    position: absolute;
+    top: 100px;
+}
+
+.carousel-caption {
+  color: black;
+}
+
+/***************************carousel ends here***************************/
